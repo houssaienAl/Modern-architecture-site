@@ -1,4 +1,5 @@
 # 🏛️ Modern Architecture Site
+![Uploading Capture d’écran 2025-04-24 180542.png…]()
 
 A PHP-based website showcasing modern architectural styles, designs, and trends. The site allows users to register, view architectural content, and explore curated galleries of contemporary structures.
 
@@ -28,3 +29,25 @@ If you don’t have WAMP installed yet:
 - Locate your WAMP installation folder (usually `C:\wamp64\`)
 - Copy the entire project folder (`Modern-architecture-site`) into:
   
+
+### 3. 🗃️ Import the Database
+
+1. Open your browser and go to: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+2. Click on **Databases** > Create a new database, name it something like `architecture_site`
+3. Click on the new database, then go to **Import**
+4. Import the provided SQL file:
+ - `user-registration.sql`
+
+This will create the necessary tables for user registration and login.
+
+### 4. ⚙️ Configure the Database Connection
+
+- Open the project folder and look for a file like `config.php` or wherever your DB connection is handled
+- Update the following values if needed:
+![Capture d’écran 2025-04-24 180531](https://github.com/user-attachments/assets/f5b9de0c-dd7c-42f9-92a1-52ddc3302df6)
+
+```php
+$host = 'localhost';
+$user = 'root';
+$password = ''; // WAMP default has no password
+$database = 'architecture_site';
