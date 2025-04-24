@@ -51,7 +51,7 @@ This will create the necessary tables for user registration and login.
 
 ### 🌆 Homepage
 ![Homepage](Screenshots/home2.png)
-![Homepage](Screenshots/home_vid.mp4)
+![Homepage](Screenshots/home_vid.gif)
 ```php
 $host = 'localhost';
 $user = 'root';
