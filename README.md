@@ -1,5 +1,4 @@
 # 🏛️ Modern Architecture Site
-![Uploading Capture d’écran 2025-04-24 180542.png…]()
 
 A PHP-based website showcasing modern architectural styles, designs, and trends. The site allows users to register, view architectural content, and explore curated galleries of contemporary structures.
 
@@ -44,7 +43,6 @@ This will create the necessary tables for user registration and login.
 
 - Open the project folder and look for a file like `config.php` or wherever your DB connection is handled
 - Update the following values if needed:
-![Capture d’écran 2025-04-24 180531](https://github.com/user-attachments/assets/f5b9de0c-dd7c-42f9-92a1-52ddc3302df6)
 
 ```php
 $host = 'localhost';
