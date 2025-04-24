@@ -50,7 +50,7 @@ This will create the necessary tables for user registration and login.
 ![Login Page](screenshots/login.png)
 
 ### 🌆 Homepage
-![Homepage](screenshots/home.png)
+![Homepage](screenshots/home2.png)
 ![Homepage](screenshots/home_vid.mp4)
 ```php
 $host = 'localhost';
