@@ -44,6 +44,14 @@ This will create the necessary tables for user registration and login.
 - Open the project folder and look for a file like `config.php` or wherever your DB connection is handled
 - Update the following values if needed:
 
+## 📸 Screenshots
+
+### 🔒 Login Page
+![Login Page](Screenshots/login.png)
+
+### 🌆 Homepage
+![Homepage](Screenshots/home2.png)
+![Homepage](Screenshots/home_vid.mp4)
 ```php
 $host = 'localhost';
 $user = 'root';
