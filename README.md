@@ -47,11 +47,11 @@ This will create the necessary tables for user registration and login.
 ## 📸 Screenshots
 
 ### 🔒 Login Page
-![Login Page](screenshots/login.png)
+![Login Page](Screenshots/login.png)
 
 ### 🌆 Homepage
-![Homepage](screenshots/home2.png)
-![Homepage](screenshots/home_vid.mp4)
+![Homepage](Screenshots/home2.png)
+![Homepage](Screenshots/home_vid.mp4)
 ```php
 $host = 'localhost';
 $user = 'root';
