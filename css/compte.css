@@ -1,0 +1,212 @@
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f6d365;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+}
+
+.card {
+  margin-top: 20px;
+  width: 100% !important;
+}
+
+.link-muted {
+  color: #aaa;
+}
+
+.link-muted:hover {
+  color: #1266f1;
+}
+
+.card {
+  margin-top: 20px;
+  width: 100% !important;
+}
+
+.display-nav {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+  .display-nav {
+    font-size: 1rem;
+  }
+}
+
+.display-h {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+  .display-h {
+    font-size: 12rem;
+  }
+}
+
+.display-h2 {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+  .display-h2 {
+    font-size: 4rem;
+  }
+}
+
+
+.btn-navbar {
+  display: inline-block;
+  padding: 10px 43px;
+  border: 1px solid rgb(224, 107, 11);
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: rgb(224, 107, 11);
+}
+
+.btn-navbar:hover {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.btn-navbar2 {
+  display: inline-block;
+  padding: 10px 43px;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-navbar2:hover {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+
+  >img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.bg-dark {
+  background-color: #2d2727 !important;
+}
+
+.img-dff {
+  height: 110px;
+  width: 320px;
+}
+
+.img-dff2 {
+  height: 110px;
+  width: 160px;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* Makes the image circular */
+}
+
+.centered-card {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 20px;
+  width: 50%;
+  /* Adjust width as necessary to fit content */
+}
+
+.text-work {
+  color: gray;
+  font-size: 12pt;
+}
+
+* .text-name {
+  font-weight: 400;
+  font-size: 16pt;
+}
+
+.text-name2 {
+  font-weight: 600;
+  font-size: 20pt;
+}
+
+.text-work2 {
+  color: rgb(0, 75, 145);
+  font-size: 12pt;
+}
+
+.img-dff3 {
+  height: 500px;
+  width: 500px;
+}
+
+.text-p {
+  font-weight: bold;
+  font-size: 9pt;
+}
+
+#yourDiv {
+  width: 320px;
+  height: 110px;
+  background-image: url('yourimage.jpg');
+  background-size: cover;
+}
+
+.img-dff4 {
+  height: 220px;
+  width: 320px;
+}
+
+.text-name {
+  color: rgb(224, 107, 11);
+  font-weight: 400;
+  font-size: 30pt;
+}
+
+.text-name2 {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 15pt;
+}

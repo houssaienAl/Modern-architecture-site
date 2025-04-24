@@ -1,0 +1,124 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.left-content {
+  flex: 1;
+  background-color:#FFFFFF;
+  padding: 50px;
+  margin: 50px;
+}
+
+.right-content {
+  flex: 1;
+  position: relative;
+}
+
+#video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This property ensures that the video maintains its aspect ratio while filling the container */
+}
+h1 {
+    color: black;
+    font-size: 70px;
+    font-family: "Noto Sans Display", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+.section {
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+.section h2 {
+    font-size: 1.5em;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.section p {
+    font-size: 0.9rem;
+    color: #555;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;        }
+.btn-navbar {
+  display: inline-block;
+  padding: 10px 43px;
+  border: 1px solid rgb(224, 107, 11);
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: rgb(224, 107, 11);
+}
+
+.btn-navbar:hover {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.btn-navbar2 {
+  display: inline-block;
+  padding: 10px 43px;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-navbar2:hover {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+}
+  
+.display-nav {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+  .display-nav {
+    font-size: 1rem;
+  }
+}
+
+.display-h {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+  .display-h {
+    font-size: 12rem;
+  }
+}
+
+.display-h2 {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+  .display-h2 {
+    font-size: 4rem;
+  }
+}

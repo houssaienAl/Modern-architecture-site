@@ -1,0 +1,173 @@
+.display-nav {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+  .display-nav {
+    font-size: 1rem;
+  }
+}
+
+.display-h {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+  .display-h {
+    font-size: 12rem;
+  }
+}
+
+.display-h2 {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+  .display-h2 {
+    font-size: 4rem;
+  }
+}
+
+
+.btn-navbar {
+  display: inline-block;
+  padding: 10px 43px;
+  border: 1px solid rgb(224, 107, 11);
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: rgb(224, 107, 11);
+}
+
+.btn-navbar:hover {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.btn-navbar2 {
+  display: inline-block;
+  padding: 10px 43px;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-navbar2:hover {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+}
+textarea {
+  width: 90%;
+  height: 150px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px #ddd;
+  font-size: 16px;
+  resize: vertical;
+  margin: 10px 0;
+}
+
+
+.bg-dark {
+  background-color: #2d2727 !important;
+}
+
+.img-dff {
+  height: 320px;
+  width: 500px;
+}
+
+.img-dff2 {
+  height: 110px;
+  width: 160px;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.centered-card {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.text-work {
+  color: gray;
+  font-size: 12pt;
+}
+
+* .text-name {
+  font-weight: 400;
+  font-size: 16pt;
+}
+
+.text-name2 {
+  font-weight: 600;
+  font-size: 20pt;
+}
+
+.text-work2 {
+  color: rgb(0, 75, 145);
+  font-size: 12pt;
+}
+
+.img-dff3 {
+  height: 510px;
+  width: 680px;
+}
+
+.text-p {
+  font-weight: bold;
+  font-size: 9pt;
+}
+
+#yourDiv {
+  width: 320px;
+  height: 110px;
+  background-image: url('yourimage.jpg');
+  background-size: cover;
+}
+
+.img-dff4 {
+  height: 220px;
+  width: 320px;
+}
+
+.popup-wrapper1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 999;
+  display: none;
+}
+.close {
+  position: absolute;
+  right: 60px;
+  top: 30px;
+  border-radius: 50%;
+  padding: 4px;
+}

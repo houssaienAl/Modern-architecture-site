@@ -1,0 +1,209 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.display-nav {
+    font-size: calc(1.625rem + 4.5vw);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+    .display-nav {
+        font-size: 1rem;
+    }
+}
+
+.display-h {
+    font-size: calc(1.625rem + 4.5vw);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+    .display-h {
+        font-size: 12rem;
+    }
+}
+
+.display-h2 {
+    font-size: calc(1.625rem + 4.5vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+    .display-h2 {
+        font-size: 4rem;
+    }
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 50rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+    margin-right: 60%;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 150;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.btn-navbar {
+    display: inline-block;
+    padding: 10px 43px;
+    border: 1px solid rgb(224, 107, 11);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: rgb(224, 107, 11);
+}
+
+.btn-navbar:hover {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.btn-navbar2 {
+    display: inline-block;
+    padding: 10px 43px;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-navbar2:hover {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+
+    header video {
+        display: none;
+    }
+}
+
+.img1 {
+    height: 500px;
+    width: 800px;
+}
+
+html,
+main {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Cutive', serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: white;
+    transition: background-color 150ms ease-out, color 150ms ease-out;
+}
+
+html {
+
+    font-family: "Noto Sans Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container {
+    width: 800px;
+    /* adjust the width of the container */
+    height: 500px;
+    /* adjust the height of the container */
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    /* add a smooth transition */
+}
+
+.image-container:hover img {
+    transform: scale(1.2);
+    /* increase the scale on hover */
+}
+.container{width:800px;
+margin-left:0%;
+margin-right: 0%;}
+.bottom-left {
+    
+    margin:3%;
+    font-weight:500;
+    font-size:15pt;
+    background-color: white;
+    position: absolute;
+    top: 3px;
+    left: 16px;
+    text-transform: uppercase;
+  }
